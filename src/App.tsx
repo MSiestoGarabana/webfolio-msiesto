@@ -1,14 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
-
+import "./App.css"
+import Main from './Main'
 function App() {
   return (
     <div className="App">
-      
-      <p className="read-the-docs">
-       Helo World
-      </p>
+     <Main/>
     </div>
   )
 }
