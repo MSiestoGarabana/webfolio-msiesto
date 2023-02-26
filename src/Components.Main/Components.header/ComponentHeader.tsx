@@ -1,6 +1,6 @@
 import React from 'react'
 import "./ComponentHeader.css"
-function Header ({heading, title}) {
+function CardHeader ({heading, title}) {
   return (
      <div className='componentHeader__container'>
         <h4 className='componentHeader__heading'>{heading}</h4>
@@ -8,4 +8,4 @@ function Header ({heading, title}) {
       </div>
   )
 }
-export default Header
+export default CardHeader
