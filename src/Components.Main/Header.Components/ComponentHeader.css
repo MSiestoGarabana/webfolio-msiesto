@@ -1,0 +1,13 @@
+.componentHeader__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.componentHeader__heading{
+    font-size: small;
+    font-weight: 500;
+    margin: 0;
+}
+.componentHeader__title{
+    margin: 0;
+}

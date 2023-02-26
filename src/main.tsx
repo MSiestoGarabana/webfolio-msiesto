@@ -1,10 +1,10 @@
 import Header from "./Components.Main/Header";
-import AboutMe from "./Components.Main/AboutMe";
+import AboutMe from "./Components.Main/AboutMe/AboutMe";
 import Skills from "./Components.Main/Skills";
 import Projects from "./Components.Main/Projects/Projects";
 import Contact from "./Components.Main/Contact";
 
-
+import './Main.css'
 
 function Main() {
  return (
