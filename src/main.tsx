@@ -2,21 +2,22 @@ import Header from "./Components.Main/Header/Header";
 import AboutMe from "./Components.Main/AboutMe/AboutMe";
 import Skills from "./Components.Main/Skills/Skills";
 import Projects from "./Components.Main/Projects/Projects";
-import Contact from "./Components.Main/Contact";
+import Contact from "./Components.Main/Contact/Contact";
 
-import './Main.css'
+import "./Main.css";
 
 function Main() {
- return (
+  return (
     <div className="Main">
-        <Header/>
-        <AboutMe/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
-        <footer>
-        </footer>
+      <Header />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Contact />
+      <footer className="footer">
+        <h4>This is a web by Miguel Siesto</h4>
+      </footer>
     </div>
-  )
+  );
 }
 export default Main;
