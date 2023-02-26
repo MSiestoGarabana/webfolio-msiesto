@@ -1,8 +1,8 @@
 .header__Container{
     display: flex;
     flex-direction: row;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin-top: 250px;
+    margin-bottom: 350px;
 }
 .header__Photo{
     width: 40%;

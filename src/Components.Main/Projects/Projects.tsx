@@ -3,8 +3,6 @@ import Header from '../Components.header/ComponentHeader'
 import './Projects.css'
 
 
-
-
 function Projects () {
   return (
     <div className='projects__body'>
