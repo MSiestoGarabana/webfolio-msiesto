@@ -15,7 +15,7 @@ function Skills() {
         <CardSkill id="JavaScript"></CardSkill>
         <CardSkill id="Git"></CardSkill>
         <CardSkill id="Html5"></CardSkill>
-        <CardSkill id="Css6"></CardSkill>
+        <CardSkill id="Css"></CardSkill>
       </div>
     </div>
   );
