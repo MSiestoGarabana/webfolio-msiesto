@@ -14,7 +14,7 @@ function Main() {
       <Skills />
       <Projects />
       <Contact />
-      <footer className="footer">
+      <footer className="footer" id="bottom">
         <h4>This is a web by Miguel Siesto</h4>
       </footer>
     </div>
