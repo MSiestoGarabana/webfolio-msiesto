@@ -4,7 +4,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <main className="contact__main">
+    <main id="contact" className="contact__main">
       <CardHeader heading="SAY HELLO" title="CONTACT"></CardHeader>
       <div className="contact__body"> FUTURE FORM HERE</div>
     </main>

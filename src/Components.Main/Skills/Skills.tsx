@@ -5,7 +5,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="skills__body">
+    <div id="skills" className="skills__body">
       <CardHeader heading="CHECK OUT MY" title="SKILLS"></CardHeader>
       <div className="skills__container">
         <CardSkill id="React"></CardSkill>

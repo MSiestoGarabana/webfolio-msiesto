@@ -10,7 +10,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div className="projects__body">
+    <div id="projects" className="projects__body">
       <Header heading="TAKE A LOOK AT MY" title="PROJECTS" />
       <div className="projects__main">
         <div id="airBnb__Card" className="projects__card">
