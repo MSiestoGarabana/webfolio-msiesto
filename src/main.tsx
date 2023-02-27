@@ -8,7 +8,7 @@ import "./Main.css";
 
 function Main() {
   return (
-    <div id="home" className="Main">
+    <div id="goto__home" className="Main">
       <Header />
       <div id="goto__aboutme" className="invisible__goto">
         aboutme
@@ -23,7 +23,7 @@ function Main() {
       </div>
       <Projects />
       <Contact />
-      <footer className="footer" id="bottom">
+      <footer className="footer" id="goto__bottom">
         <h4>This is a web by Miguel Siesto</h4>
       </footer>
     </div>

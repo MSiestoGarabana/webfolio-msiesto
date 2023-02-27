@@ -7,7 +7,7 @@ function NavBar() {
       <h1 className="MS">MS</h1>
       <div className="container__logos">
         <button className="navButton">
-          <a href="#home">
+          <a href="#goto__home">
             <svg
               className="navButton__icon"
               fill="none"
@@ -27,7 +27,7 @@ function NavBar() {
         </button>
 
         <button className="navButton">
-          <a href="#aboutme">
+          <a href="#goto__aboutme">
             <svg
               className="navButton__icon"
               fill="none"
@@ -47,7 +47,7 @@ function NavBar() {
         </button>
 
         <button className="navButton">
-          <a href="#skills">
+          <a href="#goto__skills">
             <svg
               className="navButton__icon"
               fill="none"
@@ -67,7 +67,7 @@ function NavBar() {
         </button>
 
         <button className="navButton">
-          <a href="#projects">
+          <a href="#goto__projects">
             <svg
               className="navButton__icon"
               fill="none"
@@ -87,7 +87,7 @@ function NavBar() {
         </button>
 
         <button className="navButton">
-          <a href="#contact">
+          <a href="#goto__contact">
             <svg
               className="navButton__icon"
               fill="none"
@@ -106,26 +106,6 @@ function NavBar() {
           </a>
         </button>
       </div>
-
-      <button className="navButton">
-        <a href="#bottom">
-          <svg
-            className="navButton__icon"
-            fill="none"
-            stroke="white"
-            stroke-width="1.5"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3"
-            ></path>
-          </svg>
-        </a>
-      </button>
     </nav>
   );
 }
