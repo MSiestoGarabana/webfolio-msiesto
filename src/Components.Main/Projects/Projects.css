@@ -30,7 +30,15 @@
 .projects__card--img{
  width: 50%;
 }
-
+.projects__image{
+    width: 500px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#calculator__img{
+    border: 1px solid;
+}
 .projects__card--text{
     width:50%;
 }
