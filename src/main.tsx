@@ -6,6 +6,8 @@ import Contact from "./Components.Main/Contact/Contact";
 
 import "./Main.css";
 
+/* "invisible go-to´s are meant to serve as an anchor point for onClick go-to events hosted in NavBar-Component" */
+
 function Main() {
   return (
     <div id="goto__home" className="Main">
