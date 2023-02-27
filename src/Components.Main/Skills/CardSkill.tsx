@@ -40,8 +40,8 @@ function getIcon(id) {
 function CardSkill({ id }) {
   return (
     <div className="cardSkill">
-      <img className="icon" src={getIcon(id)} alt="noimage"></img>
-      <p>{id}</p>
+      <img className="cardSkill__icon" src={getIcon(id)} alt="noimage"></img>
+      <p className="cardSkill__text">{id}</p>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 .cardSkill{
-    height: 100px;
-    width: 100px;
-    min-height: 100px;
-    min-width: 100px;
+    height: 90px;
+    width: 90px;
+    min-height: 90px;
+    min-width: 90px;
     margin:20px;
 
     background-color: rgb(255, 255, 255);
@@ -16,7 +16,11 @@
     box-shadow: 0px 0px 9px rgb(172, 172, 172);
 }
 
-.icon{
+.cardSkill__icon{
     width: 40%;
     padding-top: 10%;
+}
+.cardSkill__text{
+    margin: 0;
+    margin-top: 5%;
 }
