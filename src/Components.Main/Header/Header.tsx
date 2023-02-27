@@ -4,7 +4,7 @@ import Image from "../../images/Foto.png";
 
 function Header() {
   return (
-    <div id="home" className="header__Container">
+    <div className="header__Container">
       <div className="header__Photo">
         <img src={Image} alt="no image found"></img>
       </div>

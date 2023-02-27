@@ -8,7 +8,7 @@ import "./Main.css";
 
 function Main() {
   return (
-    <div className="Main">
+    <div id="home" className="Main">
       <Header />
       <AboutMe />
       <Skills />
