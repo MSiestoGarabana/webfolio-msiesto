@@ -3,8 +3,9 @@ import Header from "../Components.header/ComponentHeader";
 import IMGAirbnb from "../../images/Airbnb.jpg";
 import IMGCalculator from "../../images/Calculator.jpg";
 import IMGCssLogos from "../../images/CSSlogos.jpg";
-import IMGPomodora from "../../images/Pomodoro.jpg";
+import IMGPomodoro from "../../images/Pomodoro.jpg";
 import IMGRandomQuote from "../../images/RandomQuote.jpg";
+import IMGReactTps from "../../images/React + TypeScript.jpg";
 import "./Projects.css";
 
 function Projects() {
@@ -13,7 +14,7 @@ function Projects() {
       <Header heading="TAKE A LOOK AT MY" title="PROJECTS" />
       <div className="projects__main">
         <div id="airBnb__Card" className="projects__card">
-          <div className="projects__card--img">
+          <div className="IMG__container--projectCard">
             <img className="projects__image" src={IMGAirbnb}></img>
           </div>
           <div className="projects__card--text">
@@ -34,7 +35,7 @@ function Projects() {
         </div>
 
         <div id="calculator__Card" className="projects__card">
-          <div className="projects__card--img">
+          <div className="IMG__container--projectCard">
             <img
               id="calculator__img"
               className="projects__image"
@@ -60,7 +61,7 @@ function Projects() {
         </div>
 
         <div id="RandomQuotes__Card" className="projects__card">
-          <div className="projects__card--img">
+          <div className="IMG__container--projectCard">
             <img className="projects__image" src={IMGRandomQuote}></img>
           </div>
           <div className="projects__card--text">
@@ -84,8 +85,7 @@ function Projects() {
         </div>
 
         <div id="CssLogos__Card" className="projects__card">
-          <div>
-            {" "}
+          <div className="IMG__container--projectCard">
             <img className="projects__image" src={IMGCssLogos}></img>
           </div>
           <div className="projects__card--text">
@@ -106,7 +106,9 @@ function Projects() {
         </div>
 
         <div id="pomodoro__Card" className="projects__card">
-          <div className="projects__card--img"></div>
+          <div className="IMG__container--projectCard">
+            <img className="projects__image" src={IMGPomodoro}></img>
+          </div>
           <div className="projects__card--text">
             <div className="text__titleContainer">
               <h4>Pomodoro Timer</h4>
@@ -125,15 +127,10 @@ function Projects() {
         </div>
 
         <div className="projects__card">
-          <div
-            className="projects__card--img"
-            style={{
-              backgroundImage: `url()`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-            }}
-          ></div>
+          <div className="IMG__container--projectCard">
+            <img className="projects__image" src={IMGReactTps} />
+          </div>
+
           <div className="projects__card--text">
             <div className="text__titleContainer">
               <h4>JavaScript Calculator</h4>
