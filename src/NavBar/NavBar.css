@@ -61,7 +61,7 @@
 
 .navBar__text {
     display: none;
-
+    text-decoration: none;
     stroke-width: 1px;
     color:white;
     margin: 0px;
