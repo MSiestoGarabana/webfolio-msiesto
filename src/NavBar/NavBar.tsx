@@ -6,7 +6,7 @@ function NavBar() {
       <h1 className="navBar__Logo">MS</h1>
       <div className="navBar__Container--Buttons">
         <button className="navBar__Button">
-          <a href="#goto__home">
+          <a className="navBar__Link" href="#goto__home">
             <svg
               className="navBar__icon"
               fill="none"
@@ -23,7 +23,7 @@ function NavBar() {
         </button>
 
         <button className="navBar__Button">
-          <a href="#goto__aboutme">
+          <a className="navBar__Link" href="#goto__aboutme">
             <svg
               className="navBar__icon"
               fill="none"
@@ -40,7 +40,7 @@ function NavBar() {
         </button>
 
         <button className="navBar__Button">
-          <a href="#goto__skills">
+          <a className="navBar__Link" href="#goto__skills">
             <svg
               className="navBar__icon"
               fill="none"
@@ -57,7 +57,7 @@ function NavBar() {
         </button>
 
         <button className="navBar__Button">
-          <a href="#goto__projects">
+          <a className="navBar__Link" href="#goto__projects">
             <svg
               className="navBar__icon"
               fill="none"
