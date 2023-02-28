@@ -12,6 +12,7 @@
 }
 .navBar:hover  .navBar__text{
     display: block;
+    font-family:sans-serif;
 }
 
 .navBar__Logo{
@@ -52,8 +53,9 @@
 }
 
 .navBar__text {
-    stroke-width: 1px;
     display: none;
+
+    stroke-width: 1px;
     color:white;
     margin: 0px;
     margin-left: 15px;
