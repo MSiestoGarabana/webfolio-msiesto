@@ -4,12 +4,12 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <nav className="navBar">
-      <h1 className="MS">MS</h1>
-      <div className="container__logos">
-        <button className="navButton">
+      <h1 className="navBar__Logo">MS</h1>
+      <div className="navBar__Container--Buttons">
+        <button className="navBar__Button">
           <a href="#goto__home">
             <svg
-              className="navButton__icon"
+              className="navBar__icon"
               fill="none"
               stroke="white"
               strokeWidth="1"
@@ -22,10 +22,10 @@ function NavBar() {
           </a>
         </button>
 
-        <button className="navButton">
+        <button className="navBar__Button">
           <a href="#goto__aboutme">
             <svg
-              className="navButton__icon"
+              className="navBar__icon"
               fill="none"
               stroke="white"
               strokeWidth="1"
@@ -38,10 +38,10 @@ function NavBar() {
           </a>
         </button>
 
-        <button className="navButton">
+        <button className="navBar__Button">
           <a href="#goto__skills">
             <svg
-              className="navButton__icon"
+              className="navBar__icon"
               fill="none"
               stroke="white"
               strokeWidth="1"
@@ -54,10 +54,10 @@ function NavBar() {
           </a>
         </button>
 
-        <button className="navButton">
+        <button className="navBar__Button">
           <a href="#goto__projects">
             <svg
-              className="navButton__icon"
+              className="navBar__icon"
               fill="none"
               stroke="white"
               strokeWidth="1"
@@ -70,10 +70,10 @@ function NavBar() {
           </a>
         </button>
 
-        <button className="navButton">
+        <button className="navBar__Button">
           <a href="#goto__contact">
             <svg
-              className="navButton__icon"
+              className="navBar__icon"
               fill="none"
               stroke="white"
               strokeWidth="1"

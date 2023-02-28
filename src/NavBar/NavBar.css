@@ -9,32 +9,30 @@
 .navBar:hover{
     width: 180px;
 }
-.MS{
+
+.navBar__Logo{
     color: white;
     width: 100%;
     height: 120px;
     background-color: rgb(23, 40, 59);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content:center;
     margin: 0px;
 }
 
-.container__logos{
+.navBar__Container--Buttons{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 150%;
-    width: 100%;
-    
+    margin-top: 160%;
 }
-.navButton{
+
+.navBar__Button{
     background-color: transparent;
+    margin: 0px;
+    padding: 0%;
 }
-.navButton__icon{
+.navBar__icon{
     width: 30px;
-}
-#scrollDown{
-    margin-top: 200%;
 }

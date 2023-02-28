@@ -1,8 +1,8 @@
-import Header from "./Components.Main/Header/Header";
-import AboutMe from "./Components.Main/AboutMe/AboutMe";
-import Skills from "./Components.Main/Skills/Skills";
-import Projects from "./Components.Main/Projects/Projects";
-import Contact from "./Components.Main/Contact/Contact";
+import Header from "./Main.Components/Header/Header";
+import AboutMe from "./Main.Components/AboutMe/AboutMe";
+import Skills from "./Main.Components/Skills/Skills";
+import Projects from "./Main.Components/Projects/Projects";
+import Contact from "./Main.Components/Contact/Contact";
 
 import "./Main.css";
 
