@@ -16,7 +16,14 @@ function Header() {
           applications and experiences on the web
         </h3>
         <div className="container__buttons">
-          <button className="button__header--resumé">Resumé</button>
+          <button
+            className="button__header--resumé"
+            onClick={() => {
+              window.open("https://msiestocurriculum.tiiny.site");
+            }}
+          >
+            Resumé
+          </button>
           <div className="container__buttons--leftcontainer">
             <button
               className="button__header--link"
