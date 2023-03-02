@@ -1,0 +1,50 @@
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 40px;
+    
+}
+.nameInput{
+    height: 40px;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.emailInput{
+    height: 40px;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+.subjectInput{
+    height: 40px;
+    grid-column: 1 / 3;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    padding-left: 15px;
+
+}
+.messageInput{
+    grid-column: 1 / 3;
+    grid-row: 3 / 8;
+    border: 1px solid;
+    border-color: rgb(170, 170, 170);
+    border-radius: 5px;
+    height: 100%;
+    padding-left: 15px;
+    padding-top: 10px;
+
+   
+}
+.submitButton{
+    grid-column: 1 / 3;
+    margin-top: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-width: fit-content;
+}
