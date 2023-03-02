@@ -6,7 +6,7 @@ function NavBar() {
       <h1 className="navBar__Logo">MS</h1>
       <div className="navBar__Container--Buttons">
         <button className="navBar__Button">
-          <a className="navBar__Link" href="#goto__home">
+          <a className="navBar__Link" /*  */ href="#goto__home">
             <svg
               className="navBar__icon"
               fill="none"
