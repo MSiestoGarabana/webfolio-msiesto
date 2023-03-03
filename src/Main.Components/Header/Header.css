@@ -4,22 +4,22 @@
     margin-top: 250px;
     margin-bottom: 350px;
 }
-.header__Photo{
+.header__Container--photo{
     width: 40%;
     padding-right: 30px;
     padding-top: 30px;
 }
-.header__Text{
+.header__Container--text{
 width: 60%;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: flex-start;
 }
-.content{
+.header__Text--content{
     text-align: left;
 }
-.container__buttons{
+.header__ButtonsContainer--main{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -29,10 +29,10 @@ justify-content: flex-start;
 .container__buttons--leftcontainer{
     margin-right: 40%;
 }
-.button__header--resumé {
+.header__Button--resumé {
    padding-left: 50px;
    padding-right: 50px;
 }
-.button__header--link{
+.header__Button--link{
    margin-left: 20px;
 }

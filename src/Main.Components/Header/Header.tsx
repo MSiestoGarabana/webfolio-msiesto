@@ -5,19 +5,19 @@ import Image from "../../images/Foto.png";
 function Header() {
   return (
     <div className="header__Container">
-      <div className="header__Photo">
+      <div className="header__Container--photo">
         <img src={Image} alt="no image found"></img>
       </div>
-      <div className="header__Text">
-        <h2 className="heading">HI THERE, I´M</h2>
-        <h1 className="Title">MIGUEL SIESTO</h1>
-        <h3 className="content">
+      <div className="header__Container--text">
+        <h2 className="header__Text--heading">HI THERE, I´M</h2>
+        <h1 className="header__Text--title">MIGUEL SIESTO</h1>
+        <h3 className="header__Text--content">
           A Front-End Web Developer passionate about creating interactive
           applications and experiences on the web
         </h3>
-        <div className="container__buttons">
+        <div className="header__ButtonsContainer--main">
           <button
-            className="button__header--resumé"
+            className="header__Button--resumé"
             onClick={() => {
               window.open("https://msiestocurriculum.tiiny.site");
             }}
@@ -26,7 +26,7 @@ function Header() {
           </button>
           <div className="container__buttons--leftcontainer">
             <button
-              className="button__header--link"
+              className="header__Button--link"
               onClick={() =>
                 window.open("https://www.linkedin.com/in/msiesto/")
               }
@@ -41,7 +41,7 @@ function Header() {
               </svg>
             </button>
             <button
-              className="button__header--link"
+              className="header__Button--link"
               onClick={() => window.open("https://github.com/MSiestoGarabana")}
             >
               <svg
