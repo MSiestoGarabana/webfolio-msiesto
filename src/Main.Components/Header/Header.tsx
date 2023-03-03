@@ -26,7 +26,7 @@ function Header() {
           </button>
           <div className="container__buttons--leftcontainer">
             <button
-              className="header__Button--link"
+              className="header__Button--icon"
               onClick={() =>
                 window.open("https://www.linkedin.com/in/msiesto/")
               }
@@ -41,7 +41,7 @@ function Header() {
               </svg>
             </button>
             <button
-              className="header__Button--link"
+              className="header__Button--icon"
               onClick={() => window.open("https://github.com/MSiestoGarabana")}
             >
               <svg
