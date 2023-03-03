@@ -4,7 +4,7 @@ import Skills from "./Main.Components/Skills/Skills";
 import Projects from "./Main.Components/Projects/Projects";
 import Contact from "./Main.Components/Contact/Contact";
 
-import "./Main.css";
+import "./main.css";
 
 /* "invisible go-to´s are meant to serve as an anchor point for onClick go-to events hosted in NavBar-Component" */
 

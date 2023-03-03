@@ -1,9 +1,8 @@
 .Main{
     display: flex;
     flex-direction: column;
-    align-items: flex-center;
     width: 60%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 .invisible__goto{
     /*Want to see the invisible divs? background-color: aqua;*/
