@@ -39,19 +39,26 @@
 }
 
 .navBar__Button{
-    
+    border: none;
     align-items: center;
-    background-color: transparent;
-    margin: 0px;
+    background-color: transparent;    
     padding: 0;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 90%;
+    margin: 5px;
+}
+.navBar__Button:hover{
+    border: none;
+    background-color: rgb(86, 109, 134);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.185);
+    margin: 5px;
 }
 .navBar__Link{
     display: flex;
     height: 100%;
     width: 150px;
+    text-decoration: none;
     
 }
 .navBar__icon{
