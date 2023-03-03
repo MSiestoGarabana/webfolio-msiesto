@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header__Container">
       <div className="header__Container--photo">
-        <img src={Image} alt="no image found"></img>
+        <img src={Image} alt="no image found" className="header__IMG"></img>
       </div>
       <div className="header__Container--text">
         <h2 className="header__Text--heading">HI THERE, I´M</h2>
