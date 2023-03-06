@@ -23,9 +23,7 @@ align-items: flex-start;
 justify-content: flex-start;
 justify-content: center;
 }
-.header__Text--heading{
-    background-color: aqua;
-}
+
 .header__Text--content{
     text-align: left;
 }

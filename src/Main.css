@@ -6,7 +6,6 @@
 }
 .invisible__goto{
     /*Want to see the invisible divs? background-color: aqua;*/
-    background-color: aqua;
     position: absolute;
     color: transparent;
 }
