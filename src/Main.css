@@ -4,13 +4,6 @@
     width: 60%;
     margin-left: 20%;
 }
-.menuButton{
-    background-color: transparent;
-}
-.menuIcon{
-    background-color: aqua;
-}
-
 .invisible__goto{
     /*Want to see the invisible divs? background-color: aqua;*/
     background-color: aqua;

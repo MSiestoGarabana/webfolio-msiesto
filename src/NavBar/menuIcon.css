@@ -1,0 +1,12 @@
+.menuButton{
+    position: absolute;
+    background-color: transparent;
+    margin-left: 80%;
+    margin-top: 30px;
+    padding: 0;
+}
+.menuIcon{
+    margin: 0;
+    height: 50px;
+    width: 50px;
+}

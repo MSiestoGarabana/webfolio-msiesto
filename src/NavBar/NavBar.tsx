@@ -1,8 +1,10 @@
 import "./NavBar.css";
+import MenuIcon from "./menuIcon";
 
 function NavBar() {
   return (
     <nav className="navBar">
+      <MenuIcon></MenuIcon>
       <h1 className="navBar__Logo">MS</h1>
       <div className="navBar__Container--Buttons">
         <button className="navBar__Button">

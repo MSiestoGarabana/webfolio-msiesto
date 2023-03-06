@@ -1,5 +1,4 @@
-import "./main.css";
-
+import "./menuIcon.css";
 function MenuIcon() {
   return (
     <button className="menuButton">
