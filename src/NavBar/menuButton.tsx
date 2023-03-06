@@ -1,5 +1,5 @@
-import "./menuIcon.css";
-function MenuIcon() {
+import "./menuButton.css";
+function MenuButton() {
   return (
     <button className="menuButton">
       <svg
@@ -19,4 +19,4 @@ function MenuIcon() {
     </button>
   );
 }
-export default MenuIcon;
+export default MenuButton;
