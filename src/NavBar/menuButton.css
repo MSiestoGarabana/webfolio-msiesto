@@ -1,18 +1,20 @@
 .menuButton{
     position: absolute;
-    background-color: transparent;
-    border:none;
+    background-color: rgba(255, 255, 255, 0.87);
+    border:1px, solid, rgba(54, 47, 47, 0.87);
     margin-left: 80vw;
     margin-top: 30px;
     padding: 0;
     
 }
 .menuButton:hover{
-   border: none;
+   border: 1px solid rgba(54, 47, 47, 0.87);
 }
 
 .menuIcon{
-    margin: 0;
+    margin: 3px;
+    margin-left: 4px;
+    margin-right: 4px;
     height: 45px;
     width: 45px;
     background-color: transparent;

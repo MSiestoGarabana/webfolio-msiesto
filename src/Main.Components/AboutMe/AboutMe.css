@@ -5,3 +5,9 @@
     font-size: x-large;
     font-weight: 500;
 }
+
+@media(max-width: 363px) {
+    .aboutMe__Main{
+        font-size: large;
+    }
+}

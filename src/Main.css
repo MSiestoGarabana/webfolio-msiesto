@@ -18,3 +18,10 @@ margin-top: 1150px ;
 #goto__projects{
 margin-top: 1690px;
 }
+
+@media (max-width: 768px) {
+ .Main{
+    width: 90%;
+    margin: 5%;
+ }
+}
