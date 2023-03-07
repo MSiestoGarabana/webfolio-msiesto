@@ -31,6 +31,20 @@ function Projects() {
                 <li>Built using React´s function Components and plain CSS </li>
               </ul>
             </div>
+            <div className="links__container">
+              <a
+                href="https://airbnb-landing-page-clone-bymiguelsiesto.vercel.app/"
+                target="blank"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/MSiestoGarabana/airbnb-landing-page-clone"
+                target="blank"
+              >
+                Repository
+              </a>
+            </div>
           </div>
         </div>
 
