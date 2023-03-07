@@ -3,7 +3,7 @@ import MenuButton from "./menuButton";
 
 function NavBar() {
   return (
-    <nav className="navBar">
+    <nav className="navBar--show">
       <MenuButton></MenuButton>
       <h1 className="navBar__Logo">MS</h1>
       <div className="navBar__Container--Buttons">
