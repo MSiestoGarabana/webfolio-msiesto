@@ -8,8 +8,7 @@ function Contact() {
     <main id="goto__contact" className="contact__main">
       <CardHeader heading="SAY HELLO" title="CONTACT"></CardHeader>
       <div className="contact__body">
-        {" "}
-        FUTURE FORM HERE
+        <h2>msiesto.garabana.dev@gmail.com</h2>
         <Form />
       </div>
     </main>
