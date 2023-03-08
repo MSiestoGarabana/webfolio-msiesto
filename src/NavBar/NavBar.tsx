@@ -1,10 +1,8 @@
 import "./NavBar.css";
-import MenuButton from "./menuButton";
 
 function NavBar() {
   return (
     <nav className="navBar--show">
-      <MenuButton></MenuButton>
       <h1 className="navBar__Logo">MS</h1>
       <div className="navBar__Container--Buttons">
         <button className="navBar__Button">
