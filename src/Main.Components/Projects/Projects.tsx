@@ -1,19 +1,17 @@
 import Header from "../Components.header/ComponentHeader";
 import "./Projects.css";
-import ProjectsCard from "./ProjectsCard";
-
-const projectsData = [];
+import ProjectCard from "./ProjectCard";
+import projectsData from "./projectsData";
 
 function Projects() {
   return (
     <div className="projects__main">
       <Header heading="TAKE A LOOK AT MY" title="PROJECTS" />
-      <ProjectsCard id={"airBnb"} />
-      <ProjectsCard id={"calculator"} />
-      <ProjectsCard id={"randomQuotes"} />
-      <ProjectsCard id={"cssLogos"} />
-      <ProjectsCard id={"pomodoro"} />
-      <ProjectsCard id={"typeScriptTrial"} />
+      <div className="projects__container">
+        {projectsData.map((data) => (
+          <ProjectCard {...data} />
+        ))}
+      </div>
     </div>
   );
 }

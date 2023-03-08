@@ -1,4 +1,3 @@
-import React from "react";
 import IMGAirbnb from "../../images/Airbnb.jpg";
 import IMGCalculator from "../../images/Calculator.jpg";
 import IMGCssLogos from "../../images/CSSlogos.jpg";
@@ -6,8 +5,9 @@ import IMGPomodoro from "../../images/Pomodoro.jpg";
 import IMGRandomQuote from "../../images/RandomQuote.jpg";
 import IMGReactTps from "../../images/React + TypeScript.jpg";
 
-const projectsData = {
-  airBnb: {
+export default [
+  {
+    project: "airBnb",
     img: IMGAirbnb,
     title: "Airbnb Landing Page",
     technologies: ["React", "ES6"],
@@ -18,7 +18,8 @@ const projectsData = {
     liveLink: "https://airbnb-landing-page-clone-bymiguelsiesto.vercel.app/",
     repoLink: "https://github.com/MSiestoGarabana/airbnb-landing-page-clone",
   },
-  calculator: {
+  {
+    project: "calculator",
     img: IMGCalculator,
     title: "JavaScript Calculator",
     technologies: ["React", "JavaScript(ES6)", "CSS"],
@@ -29,7 +30,8 @@ const projectsData = {
     liveLink: "https://calculator-delta-lyart.vercel.app/",
     repoLink: "https://github.com/MSiestoGarabana/calculator",
   },
-  randomQuotes: {
+  {
+    project: "randomQuotes",
     img: IMGRandomQuote,
     title: "Random Quote Generator",
     technologies: ["React", "ReactQuery", "MUI"],
@@ -40,7 +42,8 @@ const projectsData = {
     repoLink:
       "https://github.com/MSiestoGarabana/random-quote-generator-libraries",
   },
-  cssLogos: {
+  {
+    project: "cssLogos",
     img: IMGCssLogos,
     title: "CSS Logos",
     technologies: ["CSS"],
@@ -51,7 +54,8 @@ const projectsData = {
     liveLink: "",
     repoLink: "https://github.com/MSiestoGarabana/CSS-logos",
   },
-  pomodoro: {
+  {
+    project: "pomodoro",
     img: IMGPomodoro,
     title: "Pomodoro method",
     technologies: ["JavaScript(ES6)", "HTML", "CSS"],
@@ -59,7 +63,8 @@ const projectsData = {
     liveLink: "https://pomodoro-timer-sepia-seven.vercel.app/",
     repoLink: "https://github.com/MSiestoGarabana/pomodoro-timer",
   },
-  typeScriptTrial: {
+  {
+    project: "typeScriptTrial",
     img: IMGReactTps,
     title: "TypesScript+React",
     technologies: ["React", "TypeScript", "CSS"],
@@ -70,44 +75,4 @@ const projectsData = {
     liveLink: "https://react-typescript-wheat-eight.vercel.app/",
     repoLink: "https://github.com/MSiestoGarabana/react-typescript",
   },
-};
-
-export default function ProjectsCard({ id }) {
-  return (
-    <div className="projects__card" id={id}>
-      <div className="IMG__container--projectCard">
-        <img
-          src={projectsData[id].img}
-          className="projects__image"
-          alt="no image found"
-        ></img>
-      </div>
-      <div className="projects__card--text">
-        <div className="text__titleContainer">
-          <h4>{projectsData[id].title}</h4>
-          <div>
-            <h5>Technologies used</h5>
-            {projectsData[id].technologies.map((technology) => (
-              <p>{technology}</p>
-            ))}
-          </div>
-        </div>
-        <div className="text__ulcontainer">
-          <ul>
-            {projectsData[id].text.map((text) => (
-              <li>{text}</li>
-            ))}
-          </ul>
-        </div>
-        <div className="links__container">
-          <a href={projectsData[id].liveLink} target="blank">
-            Live
-          </a>
-          <a href={projectsData[id].repoLink} target="blank">
-            Repository
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
+];
