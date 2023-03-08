@@ -8,9 +8,11 @@ export default function ProjectCard({ ...data }) {
         <h4 className="Card__text--title">{data.title}</h4>
         <div className="Card__container--technologies">
           <h4 className="Card__text--techTitle">Technologies used:</h4>
-          {data.technologies.map((technology) => (
-            <p className="Card__text--technology">{technology}</p>
-          ))}
+          <div className="Card__container--techContainer">
+            {data.technologies.map((technology) => (
+              <p className="Card__text--technology">{technology}</p>
+            ))}
+          </div>
         </div>
         <ul className="Card__unorderedlist--list">
           {data.text.map((text) => (
