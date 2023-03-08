@@ -63,7 +63,7 @@ justify-content: center;
 }
 @media (max-width: 1100px) {
     .header__Container{
-        background-color: aqua;
+        /*background-color: aqua;*/
         display: flex;
         flex-direction: column;
         margin-top: 50px;
@@ -91,9 +91,9 @@ justify-content: center;
     }
 }
 @media (max-width: 768px) {
-    .header__Container{
+    /*.header__Container{
         background-color: red;
-    }
+    }*/
     .header__IMG{
         height: 250px;
         width: 250px;
