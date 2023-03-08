@@ -1,10 +1,10 @@
-.projects__body {
+.projects__main {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
 }
 
-.projects__main{
+.projects__container{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     padding: 30px;
