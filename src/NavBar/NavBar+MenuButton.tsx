@@ -4,9 +4,16 @@ import "./NavBar.css";
 import "./menuButton.css";
 
 export default function NavBarAndButton() {
+  const [isClicked, setClick] = React.useState(false);
+  var navStyle = isClicked === false ? "navBar--show" : "";
   return (
     <div>
-      <button className="menuButton">
+      <button
+        onClick={() => {
+          setClick(!isClicked), console.log(isClicked);
+        }}
+        className="menuButton"
+      >
         <svg
           className="menuIcon"
           xmlns="http://www.w3.org/2000/svg"
