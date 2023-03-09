@@ -5,12 +5,14 @@ import "./menuButton.css";
 
 export default function NavBarAndButton() {
   const [isClicked, setClick] = React.useState(false);
-  var navStyle = isClicked === false ? "navBar--show" : "";
+
   return (
     <div>
       <button
         onClick={() => {
-          setClick(!isClicked), console.log(isClicked);
+          setClick(!isClicked),
+            console.log(isClicked),
+            console.log(window.innerWidth);
         }}
         className="menuButton"
       >
@@ -29,7 +31,7 @@ export default function NavBarAndButton() {
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
       </button>
-      <NavBar />
+      <NavBar isClicked={isClicked} />
     </div>
   );
 }
