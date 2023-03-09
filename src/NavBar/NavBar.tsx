@@ -1,12 +1,13 @@
 import "./NavBar.css";
+import clsx from "clsx";
 
-function NavBar() {
+function NavBar({ isClicked }) {
   return (
-    <nav className="navBar--show">
-      <h1 className="navBar__Logo">MS</h1>
-      <div className="navBar__Container--Buttons">
+    <nav className={clsx({ navBarShow: true, Hide: isClicked })}>
+      <h1 className={clsx({ navBar__Logo: true, Hide: isClicked })}>MS</h1>
+      <div className="navBar__Container--buttons">
         <button className="navBar__Button">
-          <a className="navBar__Link" /*  */ href="#goto__home">
+          <a className="navBar__Link" href="#goto__home">
             <svg
               className="navBar__icon"
               fill="none"

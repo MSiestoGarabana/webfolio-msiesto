@@ -1,4 +1,5 @@
-.navBar--show{
+
+.navBarShow{
     display: flex;
     flex-direction: column;
     background-color: rgb(47, 64, 83) ;
@@ -6,14 +7,18 @@
     height: 100vh;
     width: 120px;
    /* transition: width 0.3s ease-out 100ms;*/
-   transition: width 0.3s;
+   transition: width 0.3s ease-out 10ms;
 }
-.navBar--show:hover{
+
+.Hide{
+    left: -220px;
+}
+
+.navBarShow:hover{
     width: 220px;
 }
 
-/*BUG HERE: SINCE MenuButton is a navBar--show component, navBar__text will be visible when hover menuButton*/
-.navBar--show:hover  .navBar__text{
+.navBarShow:hover  .navBar__text{
     visibility: visible;
 }
 
@@ -28,7 +33,7 @@
     margin: 0px;
 }
 
-.navBar__Container--Buttons{
+.navBar__Container--buttons{
     display: flex;
     flex-direction: column;
     position: static;
@@ -76,10 +81,19 @@
     margin-top: 4px; 
 }
 @media (max-width: 1100px) {
-.navBar--show{
+.navBar{
+   width: 0;
+}
+.navBar:hover{
+    width: 0;
+}
+.navBar__Button{
     visibility: hidden;
 }
-.navBar__text{
+.navBar__Logo{
+    visibility: hidden;
+}
+.navBar:hover  .navBar__text{
     visibility: hidden;
 }
 }
