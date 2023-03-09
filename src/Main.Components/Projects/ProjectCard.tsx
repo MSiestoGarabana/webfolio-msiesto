@@ -15,8 +15,15 @@ export default function ProjectCard({ ...data }) {
           </div>
         </div>
         <ul className="Card__unorderedlist--list">
-          {data.text.map((text) => (
-            <li className="Card__unorderedlist--text">{text}</li>
+          {data.text.map((string) => (
+            <li
+              /*key={
+                "key" + data.project + data.project.text.indexOf(data.project.text.string) 
+              }*/
+              className="Card__unorderedlist--text"
+            >
+              {string}
+            </li>
           ))}
         </ul>
         <div className="Card__container--links">
