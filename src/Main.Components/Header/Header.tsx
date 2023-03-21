@@ -19,7 +19,9 @@ function Header() {
           <button
             className="header__Button--resumé"
             onClick={() => {
-              window.open("https://msiestocurriculum.tiiny.site");
+              window.open(
+                "https://docs.google.com/document/d/1kUUNUO0sUifQSSk9z3MsuX8mNDPZLkiW-fUy91zpIyw/edit#heading=h.njnour5w95ei"
+              );
             }}
           >
             Resumé
