@@ -20,7 +20,7 @@ function Header() {
             className="header__Button--resumé"
             onClick={() => {
               window.open(
-                "https://docs.google.com/document/d/1kUUNUO0sUifQSSk9z3MsuX8mNDPZLkiW-fUy91zpIyw/edit#heading=h.njnour5w95ei"
+                "https://drive.google.com/file/d/1Fy4J-4fwhfiSq-A-mX_gRGREmpYRmaC_/view?usp=share_link"
               );
             }}
           >
